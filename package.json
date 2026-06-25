@@ -1,0 +1,16 @@
+{
+  "name": "gh-issues-slack-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that creates GitHub issues from @mentions, enhanced by AI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "openai": "^4.104.0",
+    "@octokit/rest": "^21.0.0",
+    "@slack/bolt": "^4.3.0",
+    "dotenv": "^16.5.0"
+  }
+}
